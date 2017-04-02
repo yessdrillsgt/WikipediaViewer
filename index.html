@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search Wikipedia</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+        <!-- Bootstrap core CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+        <!-- Custom styles for this template -->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+	
+    <body>
+        <div class="container">
+			
+			<div id="searchIcon">
+				<img class="img-responsive center-block" src="img/glyphicons-28-search@3x.png" alt="search icon">
+				<span>Click icon to search</span>
+			</div>
+			
+			<div id="userInput-contents">
+				<div class="row">
+					<div class="col-xs-9 col-md-11">
+						<input type="text" id="userInput" class="form-control pull-right" placeholder="Search Wikipedia..." />	
+					</div>
+					<div class="col-xs-3 col-md-1">
+						<input type="button" id="btn_search" class="btn btn-default pull-right" Value="Go!" />
+					</div>
+				</div>
+				<div class="row">
+						<input type="button" id="btn_randomWiki" class="btn btn-default center-block" Value="Random Wiki" />
+				</div>
+			</div>
+			
+		</div>
+		
+        <!-- JQuery Plugin -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	
+		<!-- Bootstrap JS Plugin -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
